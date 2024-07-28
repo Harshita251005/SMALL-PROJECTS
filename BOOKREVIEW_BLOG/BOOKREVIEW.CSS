@@ -1,0 +1,71 @@
+*{ 
+    margin: 0%;
+   padding: 0%;
+   font-family: "Rubik","Helvetica",sans-serif;
+}
+
+    .head{
+        border:2px solid #63300e;background-color: #63300e;width:100vw;height: 350px;color: white;position: sticky;
+         }
+    .header{display: flex;}
+
+    .firstheader{display: inline;}
+    .reedsy{font-size: 34px;margin-left: 280px;margin-top: 15px;}
+    .reedsy a{position: fixed;text-decoration: none;}
+    .reedsy a:link{color: white;}
+
+    .firstlist ul{position: fixed;display: flex;margin-left: 520px;margin-top: 25px;column-gap: 20px;font-weight: bolder;}
+    .firstlist li a{color: white;}
+
+    .joinus{background-color:#edac01;border-radius: 3px;width: 80px;}
+
+
+    .secondheader{display: flex;column-gap: 40px;}
+
+    .get{margin-left: 280px;font-size: 40px;margin-top: 100px;}
+    .submit{margin-left: 280px;margin-top: 20px;font-size:17px;}
+    .secondlist{margin-left: 280px;margin-top: 20px;column-gap: 9px;display: flex;}
+    .signin{background-color: aliceblue;border-radius: 7px;width:380px;padding: 8px;}
+    .signin a:link{color:black;}
+    .signup{background-color:#edac01;border-radius: 6px;width: 100px;padding-top: 7px;}
+    .signup a:link{color: white;}
+    .learnmore{border:2px solid white;border-radius: 7px;width:120px;padding-top: 7px;}
+    .learnmore a:link{color: white;}
+    
+    /* apply on both list */
+    ul li{
+        list-style: none;}
+    li a{text-decoration: none;}
+
+    .firstimage img{ float:right;margin-right: 300px;margin-top: 90px;}
+
+
+    .leftsection{display: flex;flex-direction: column;background-color: whitesmoke;}
+
+    .secondimage img{border-radius: 7px;float: left;margin-left: 280px;margin-top: 30px;}
+    .leftsection input{margin-top: 13px;width:290px;height: 35px;border-radius: 7px;padding-left: 16px;font-size: large;padding-top: 4px;margin-left: 280px;}
+    h5{margin-left: 280px;margin-top: 15px;}
+    select{width:290px;margin-left: 280px;height: 35px;border-radius: 7px;font-size: large;margin-top: 5px;}
+    .checkbox {display: flex;}
+    .checkbox p{ margin-top: 22px;margin-left: 6px;}
+    .box input{margin-left: 280px;width: 13px;}
+    hr{margin-top: 18px;}
+
+    .categories h4{margin-left: 280px;margin-top: 12px;}
+    .categories ol {margin-left: 300px;margin-top: 3px;}
+    .categories ol li{list-style:disc;}
+    .categories ol li a:link{color:#edac01 ;}
+    .lastfile {margin-left:280px;width:290px;height: 420px;border-radius: 7px;margin-top: 20px;box-shadow: 1px 8px 9px 1px lightgrey    }
+    .thirdimage img{border-radius: 7px;}
+    .bookreview{display: grid;gap: 8px;padding: 16px;font-size: 100%;line-height: 20px;}
+    .lastfile input{border-color: lightgrey;}
+    .lastfile p1{background-color: #edac01;color: white;border-radius: 7px;display: block;margin: 16px;height: 30px;padding-top: 12px;}
+    
+
+
+
+
+/* side part */
+.directory p{ color: #edac01;font-weight: bold;margin-left: 280px;margin-top: 20px;}
+.directory p2{font-size: 45px;margin-left: 280px;margin-top: 50px;}
+.directory p3{margin-left: 280px;margin-top: 40px;}
